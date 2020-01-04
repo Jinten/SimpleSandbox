@@ -8,9 +8,7 @@ like this.
 
     int main(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nCmdShow)
     {
-    	Application app;  
-
-    	app.setShowImGuiDemoWindow(true);  
+    	Application app;   
 
     	app.update([&]()
     		{
